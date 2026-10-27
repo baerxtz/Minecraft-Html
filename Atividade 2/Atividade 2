@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft: Um Mundo de Possibilidades</title>
+
+    <!-- Fonte usada no site -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <!-- Ligação com o arquivo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho do site -->
+    <header>
+        <h1>Minecraft: Um Mundo de Possibilidades</h1>
+        <p class="subtitulo">Um jogo onde a criatividade não tem limites.</p>
+    </header>
+
+    <!-- Menu de navegação -->
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="curiosidades.html">Curiosidades</a>
+        <a href="https://www.minecraft.net/" target="_blank">Site oficial</a>
+    </nav>
+
+    <main>
+
+        <!-- Apresentação do Minecraft -->
+        <section class="cartao">
+            <h2>O que é Minecraft?</h2>
+
+            <p>
+                Minecraft é um jogo de mundo aberto em que o jogador pode
+                explorar cenários, coletar recursos, construir estruturas
+                e enfrentar criaturas. Uma das coisas mais legais é que
+                cada mundo pode ser diferente, então sempre tem algo novo
+                para fazer.
+            </p>
+
+            <p>
+                O jogo permite jogar sozinho ou com outras pessoas,
+                criando desde casas simples até construções enormes.
+                Tudo depende da criatividade de cada jogador.
+            </p>
+
+            <img class="imagem-principal"
+                 src="https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png"
+                 alt="Capa do jogo Minecraft">
+        </section>
+
+        <!-- Principais modos de jogo -->
+        <section class="cartao">
+            <h2>Principais modos de jogo</h2>
+
+            <ul>
+                <li>
+                    <strong>Sobrevivência:</strong>
+                    o jogador coleta recursos, fabrica ferramentas,
+                    constrói abrigos e precisa cuidar da própria vida.
+                </li>
+
+                <li>
+                    <strong>Criativo:</strong>
+                    permite construir livremente, com acesso aos blocos
+                    e a possibilidade de voar.
+                </li>
+
+                <li>
+                    <strong>Aventura:</strong>
+                    é voltado para explorar mapas e cumprir desafios
+                    criados para esse modo.
+                </li>
+
+                <li>
+                    <strong>Espectador:</strong>
+                    permite observar o mundo sem interagir normalmente
+                    com os blocos.
+                </li>
+            </ul>
+        </section>
+
+        <!-- Atividades que podem ser feitas no jogo -->
+        <section class="cartao destaque">
+            <h2>O que podemos fazer no Minecraft?</h2>
+
+            <p>Existem várias atividades para quem gosta de jogar:</p>
+
+            <ol>
+                <li>Construir casas, castelos e cidades.</li>
+                <li>Explorar cavernas e procurar minérios.</li>
+                <li>Enfrentar criaturas e chefes do jogo.</li>
+                <li>Montar plantações e criar animais.</li>
+                <li>Jogar com amigos em mundos compartilhados.</li>
+            </ol>
+        </section>
+
+        <!-- Dicas para iniciantes -->
+        <section class="cartao">
+            <h2>3 dicas para iniciantes</h2>
+
+            <ul>
+                <li>
+                    <strong>Faça um abrigo:</strong>
+                    ter um lugar seguro ajuda bastante durante a primeira noite.
+                </li>
+
+                <li>
+                    <strong>Consiga ferramentas:</strong>
+                    madeira e pedra são recursos importantes no começo.
+                </li>
+
+                <li>
+                    <strong>Explore com cuidado:</strong>
+                    leve comida e preste atenção antes de entrar em cavernas.
+                </li>
+            </ul>
+        </section>
+
+        <!-- Curiosidade e acesso à outra página -->
+        <section class="cartao">
+            <h2>Quer conhecer mais?</h2>
+
+            <p>
+                O Minecraft tem várias dimensões, criaturas e segredos
+                que nem todo jogador conhece.
+                <a href="curiosidades.html">Confira algumas curiosidades aqui.</a>
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Rodapé do site -->
+    <footer id="rodape">
+        <p>Trabalho de HTML e CSS | Minecraft</p>
+    </footer>
+
+</body>
+</html>
